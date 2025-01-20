@@ -271,6 +271,13 @@
     margin-left: 200px;
    }
 
+   .box{
+    width: 320px;
+    height: 220px;
+   padding-top: 20px;
+   font-size: 0.8rem;
+   }
+
 
 
 }
