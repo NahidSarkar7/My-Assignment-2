@@ -248,6 +248,7 @@
    .curriculum{
    background-image: none;
    /* width: 100%; */
+   width: 300px;
    }
 
    .curriculum-box{
@@ -267,6 +268,7 @@
 
    .box{
     margin-bottom: 100px;
+    margin-left: 200px;
    }
 
 
