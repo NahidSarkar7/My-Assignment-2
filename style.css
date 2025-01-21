@@ -50,7 +50,7 @@
     margin: 0px auto;
     padding: 10px;
 }
-.primary-btn{
+.primarya-btn{
     background-color: orange;
     border: none;
     width: 197px;
@@ -100,7 +100,7 @@
  
 }
 
-.button{
+.buttona{
     background-color: black;
     border: none;
     width: 197px;
@@ -189,125 +189,118 @@
     
 }
 
-.thired-section{
-    /* border: 1px solid rgb(52, 198, 36); */
+
+.maina{
+    /* border: 1px solid rebeccapurple; */
+    width: 540px;
+    height: 570px;
+    border-radius: 16px;
+    padding:px;
+    background-color:white;
+}
+
+.maina img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.containerr{
     display: flex;
-    max-width: 1440px;
-    margin: 0px auto;
-    /* height: 1000px; */
-    background-image: url("image/bg.png"),linear-gradient(white,rgb(249, 238, 216));
-    /* background-image: ; */
-    padding: 50px;
-    padding-top: 80px;
-}
-
-.our{
-    text-align: center;
-    margin-top: 80px;
-}
-.big-card{
-    width:550px;
-    height: 600px;
-    /* border: 1px solid rebeccapurple; */
-    padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 16px;
-}
-
-.big-card img{
-    border-radius: 16px;
-}
-
-.child{
-    /* border: 1px solid rebeccapurple; */
-
-    width:290px;
-    height: 70px;
-}
-
-.btn{
-    background-color: rgb(248, 174, 36);
-    border: none;
-    width: 197px;
-    height: 50px;
-    border-radius: 12px;
-    color: aliceblue;
-   margin-top: -20px;
-   margin-left: 20px;
-    padding: 10px 0px;
-}
-.batan{
-    background-color: rgb(248, 174, 36);
-    border: none;
-    width: 137px;
-    height: 40px;
-    border-radius: 12px;
-    color: aliceblue;
-   margin-top: -40px;
-   margin-left: 20px;
-    padding: 10px 0px;
-}
-.small-card{
-    /* border: 1px solid rebeccapurple; */
-    width: 100%;
-    height: 600px;
-}
-
-.ccart{
-    width:350px;
-    height:290px;
-    text-align: center;
-    padding: 0px;
-    margin-left: 20px;
-    /* border: 1px solid rebeccapurple; */
-    border-radius: 20px;
-    background-color: #FFFFFF;
-
-}
-
-.ccart img{
-    width: 100%;
-    height: 65%;
-    border-radius:15px;
-}
-
-.small-card{
-    display: grid;
-    grid-template-columns:400px auto;
-    /* border: 1px solid yellow; */
     justify-content: center;
     align-items: center;
+    max-width: 1440px;
+    margin: 0px auto;
 }
 
-.image-btn{
-    width: 150px;
-    height: 40px;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color:#95B226;
-    border-radius: 48px;
-    border: none;
-    margin-top: -40px;
-    margin-right:150px;
-    font-family:Raleway;
-  
+#color{
+    background-color:#5D58EF;
 }
-.image-btan{
-    width: 150px;
-    height: 40px;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color:#5D58F0;
-    border-radius: 48px;
-    border: none;
-    margin-top: -40px;
-    margin-right:150px;
-    font-family:Raleway;
-  
+
+.button{
+    margin-left:20px;
+   position: absolute;
+   margin-top: -20px;
+   width: 175px;
+   height: 48px;
+   background-color: #05D4DF;
+   color: #FFFFFF;
+   border-radius: 48px;
+   border: none;
+   font-family: Raleway;
+   }
+
+   .small-batan{
+    margin-left:20px;
+    position: relative;
+   margin-top:-10px;
+   width: 175px;
+   height: 35px;
+   border-radius: 48px;
+   background-color:#95B226 ;
+   color: #FFFFFF;
+   border: none;
+   }
+
+   .boxx{
+    /* border: 1px solid rebeccapurple; */
+    
+    font-family: 'Courier New', Courier, monospace;
+    width: 290px;
+    height: 280px;
+    border-radius: 16px;
+    margin-left: 10px;
+    background-color: white;
 }
-.perageraph{
-    font-family:Raleway;
+
+.boxx img{
+    border-radius: 16px;
+    width: 100%;
+   
 }
+.child{
+    display: grid;
+    grid-template-columns: 330px 330px;
+    row-gap: 20px;
+    
+ }
+ .heading{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+}
+
+.baton{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.first{
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+
+.firsta{
+    margin-left: 20px;
+    font-family: Quicksand;
+}
+
+.all-contain{
+    background-image: url("image/bg.png"),linear-gradient(white,rgb(249, 238, 216));
+}
+
+.baton{
+   width: 197px;
+   height: 50px;
+   padding: 10px;
+   border-radius: 12px;
+   border: none;
+   background-color: black;
+   color: #FFFFFF; 
+}
+
 
 
 
@@ -315,8 +308,8 @@
 
 
 @media screen  and (max-width:576px){
-    .unorder-list , .primary-btn{
-        display: none;
+    .unorder-list ,.primarya-btn{
+        display:none;
     }
     .navber{
         max-width: 100%;
@@ -341,7 +334,7 @@
         flex-direction:column-reverse;
         gap: 5px;
        max-width:90%;
-       margin: 50px auto;
+       margin: 150px auto;
        justify-content: center;
        /* padding: 0px; */
         height: 725px;
@@ -356,20 +349,21 @@
    .banner-heading{
     width: 100%;
     font-size: 2rem;
+ 
    
    }
    .banner-description{
     width: 285px;
     /* height: 14px; */
     margin-top:0px;
-    margin-left:30px;
+    margin-left:70px;
     margin-bottom: 40px;
     text-align: center;
     font-size: 1rem;
     /* border: 1px solid rebeccapurple; */
    }
    .main{
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     max-width:100%;
     margin: 50px auto;
    }
@@ -410,48 +404,44 @@
     display: none;
    }
 
-   .thired-section{
-    margin-top:0px;
-   }
+   .banner-heading{
+    height: 130px;
+}
 
-   .big-card{
+.maina{
     display: none;
-   }
+}
 
-   .small-card{
-    grid-template-columns:220px auto;
-    /* display: flex;
-    flex-direction: column; */
-    margin-top:0px;
-    gap: 10px;
-   }
+.child{
 
-   .ccart{
-    width:220px;
-    height:230px;
-   text-align: left;
+    grid-template-columns: 40px 40px;
+    
+    column-gap: 230px;
+   
 }
-.pepa{
-    margin-left: 20px;
-    font-size: 10px;
+
+.boxx{
+    width: 235px;
 }
-.ccart img{
-    height: 50%;
-}
-.image-btan{
-margin-left: 10px;
-}
-.image-btn{
-    margin-left: 10px;
-    }
-.our{
-    margin-top: 300px;
+
+.containerr{
+    max-width: 100%;
+    margin: 0px auto;
+    justify-content: flex-start;
     /* border: 1px solid rebeccapurple; */
-    height: 350px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
 }
+
+.all-contain{
+    margin-top: 550px;
 }
 
  
+
+}
+
+
+
+
+
+
+
