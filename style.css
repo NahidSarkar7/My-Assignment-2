@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     
     padding: 0px;
@@ -90,10 +92,12 @@
 }
 
 .banner-description{
-    width: 640px;
+    width: 660px;
     height: 50px;
     font-weight: 400;
     font-size: 1.3rem;
+  
+ 
 }
 
 .button{
@@ -177,13 +181,133 @@
     
 }
 
+.arrow{
+        /* border: 1px solid rebeccapurple; */
+        /* margin-left: 100px; */
+        text-align: center;
+ 
+    
+}
 
+.thired-section{
+    /* border: 1px solid rgb(52, 198, 36); */
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+    /* height: 1000px; */
+    background-image: url("image/bg.png"),linear-gradient(white,rgb(249, 238, 216));
+    /* background-image: ; */
+    padding: 50px;
+    padding-top: 80px;
+}
 
+.our{
+    text-align: center;
+    margin-top: 80px;
+}
+.big-card{
+    width:550px;
+    height: 600px;
+    /* border: 1px solid rebeccapurple; */
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
 
+.big-card img{
+    border-radius: 16px;
+}
 
+.child{
+    /* border: 1px solid rebeccapurple; */
 
+    width:290px;
+    height: 70px;
+}
 
+.btn{
+    background-color: rgb(248, 174, 36);
+    border: none;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    color: aliceblue;
+   margin-top: -20px;
+   margin-left: 20px;
+    padding: 10px 0px;
+}
+.batan{
+    background-color: rgb(248, 174, 36);
+    border: none;
+    width: 137px;
+    height: 40px;
+    border-radius: 12px;
+    color: aliceblue;
+   margin-top: -40px;
+   margin-left: 20px;
+    padding: 10px 0px;
+}
+.small-card{
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    height: 600px;
+}
 
+.ccart{
+    width:350px;
+    height:290px;
+    text-align: center;
+    padding: 0px;
+    margin-left: 20px;
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 20px;
+    background-color: #FFFFFF;
+
+}
+
+.ccart img{
+    width: 100%;
+    height: 65%;
+    border-radius:15px;
+}
+
+.small-card{
+    display: grid;
+    grid-template-columns:400px auto;
+    /* border: 1px solid yellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-btn{
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color:#95B226;
+    border-radius: 48px;
+    border: none;
+    margin-top: -40px;
+    margin-right:150px;
+    font-family:Raleway;
+  
+}
+.image-btan{
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color:#5D58F0;
+    border-radius: 48px;
+    border: none;
+    margin-top: -40px;
+    margin-right:150px;
+    font-family:Raleway;
+  
+}
+.perageraph{
+    font-family:Raleway;
+}
 
 
 
@@ -217,7 +341,7 @@
         flex-direction:column-reverse;
         gap: 5px;
        max-width:90%;
-       margin: 150px auto;
+       margin: 50px auto;
        justify-content: center;
        /* padding: 0px; */
         height: 725px;
@@ -238,10 +362,11 @@
     width: 285px;
     /* height: 14px; */
     margin-top:0px;
-    margin-left:0px;
+    margin-left:50px;
     margin-bottom: 40px;
     text-align: center;
     font-size: 1rem;
+    /* border: 1px solid rebeccapurple; */
    }
    .curriculum{
    background-image: none;
@@ -276,7 +401,52 @@
    font-size: 0.8rem;
    }
 
+   .arrow{
+    display: none;
+   }
 
+   .thired-section{
+    margin-top:0px;
+   }
 
+   .big-card{
+    display: none;
+   }
+
+   .small-card{
+    grid-template-columns:220px auto;
+    /* display: flex;
+    flex-direction: column; */
+    margin-top:0px;
+    gap: 10px;
+   }
+
+   .ccart{
+    width:220px;
+    height:230px;
+   text-align: left;
+}
+.pepa{
+    margin-left: 20px;
+    font-size: 10px;
+}
+.ccart img{
+    height: 50%;
+}
+.image-btan{
+margin-left: 10px;
+}
+.image-btn{
+    margin-left: 10px;
+    }
+.our{
+    margin-top: 300px;
+    /* border: 1px solid rebeccapurple; */
+    height: 350px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
 }
 
+ 
