@@ -362,11 +362,16 @@
     width: 285px;
     /* height: 14px; */
     margin-top:0px;
-    margin-left:50px;
+    margin-left:30px;
     margin-bottom: 40px;
     text-align: center;
     font-size: 1rem;
     /* border: 1px solid rebeccapurple; */
+   }
+   .main{
+    border: 1px solid rebeccapurple;
+    max-width:100%;
+    margin: 50px auto;
    }
    .curriculum{
    background-image: none;
